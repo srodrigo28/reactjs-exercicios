@@ -1,7 +1,7 @@
-import { Mouse } from './Views/mouse'
+import { ContadorValidado } from './Views/ContadorValidado'
 
 export function App() {
   return (
-    <Mouse />
+    <ContadorValidado />
   )
 }

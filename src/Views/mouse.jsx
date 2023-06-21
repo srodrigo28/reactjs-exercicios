@@ -21,8 +21,8 @@ export function Mouse() {
 
     return (
         <div style={estilo} onMouseMove={quandoMover}>
-            <span>Eixo X: { x }</span>
-            <span>Eixo Y: { y }</span>
+            <h2>Eixo X: { x }</h2>
+            <h2>Eixo Y: { y }</h2>
         </div>
     )
 }
