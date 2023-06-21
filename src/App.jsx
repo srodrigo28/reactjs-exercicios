@@ -1,7 +1,7 @@
-import { InputText } from './Views/InputText'
+import { AppMega4 } from './Views/AppMega4'
 
 export function App() {
   return (
-    <InputText />
+    <AppMega4 />
   )
 }

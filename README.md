@@ -9,3 +9,8 @@ npm install
 ```
 npm run dev
 ```
+
+* link referência
+```
+https://www.udemy.com/course/nextjs-e-react/learn/lecture/27418854#overview
+```

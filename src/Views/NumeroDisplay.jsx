@@ -10,9 +10,7 @@ export function NumeroDisplay(props) {
                 flexDirection: "column",
                 justifyContent: "center",
                 alignItems: "center",
-            }}>
-                <h1>Contador</h1>
-                
+            }}> 
                 <ContadorDisplay numero={props.numero} />
     
             </div>

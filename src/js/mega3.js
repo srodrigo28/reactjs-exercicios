@@ -1,15 +1,15 @@
-function mega(qtde = 6, numeros = []) {
+function mega3(qtde = 6, numeros = []) {
     if (qtde < 6 && qtde > 15) {
         throw "Quantidade inválida!"
     }
     if (numeros.length === qtde) {
-        return numeros.sort( (a1, a2) => a1 - a2)
+        return numeros.sort()
     }
     const numeroAleatorio = parseInt(Math.random() * 60) + 1
     if (!numeros.includes(numeroAleatorio)) {
-        return mega(qtde, [...numeros, numeroAleatorio])
+        return mega3(qtde, [...numeros, numeroAleatorio])
     } else {
-        return mega(qtde, numeros)
+        return mega3(qtde, numeros)
     }
 }
-console.log(mega())
+console.log(mega(7))

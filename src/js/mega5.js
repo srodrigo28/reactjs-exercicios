@@ -1,4 +1,4 @@
-function mega(qtde = 6, numeros = []) {
+export function mega5(qtde = 6, numeros = []) {
     if (qtde < 6 && qtde > 15) {
         throw "Quantidade inválida!"
     }
@@ -7,9 +7,8 @@ function mega(qtde = 6, numeros = []) {
     }
     const numeroAleatorio = parseInt(Math.random() * 60) + 1
     if (!numeros.includes(numeroAleatorio)) {
-        return mega(qtde, [...numeros, numeroAleatorio])
+        return mega5(qtde, [...numeros, numeroAleatorio])
     } else {
-        return mega(qtde, numeros)
+        return mega5(qtde, numeros)
     }
 }
-console.log(mega(7))
