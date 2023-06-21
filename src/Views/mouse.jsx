@@ -3,8 +3,11 @@ import { useState } from "react";
 export function Mouse() {
     let [x, setX] = useState()
     let [y, setY] = useState()
-
-    const estilo = {
+    function quandoMover(ev) {
+        setX(ev.clientX)
+        setY(ev.clientY)
+    } 
+    const css = {
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
@@ -13,14 +16,8 @@ export function Mouse() {
         color: "#fff",
         height: "100vh"
     }
-
-    function quandoMover(ev) {
-        setX(ev.clientX)
-        setY(ev.clientY)
-    }
-
     return (
-        <div style={estilo} onMouseMove={quandoMover}>
+        <div style={css} onMouseMove={quandoMover}>
             <h2>Eixo X: { x }</h2>
             <h2>Eixo Y: { y }</h2>
         </div>

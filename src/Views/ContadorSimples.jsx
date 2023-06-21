@@ -14,6 +14,7 @@ export function ContadorSimples() {
                 justifyContent: "center",
                 fontSize: "80px"
             }}>{numero}</h2>
+            
             <button onClick={dec}>-</button>
             <button onClick={inc}>+</button>
 

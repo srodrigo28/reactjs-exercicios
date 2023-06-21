@@ -30,9 +30,10 @@ export function Contador() {
             
             
             <ContadorDisplay numero={numero} />
-            <button onClick={dec}>-</button>
-
-            <button onClick={inc}>+</button>
+            <div style={{ display: "flex"}}>
+                <button onClick={dec}>-</button>
+                <button onClick={inc}>+</button>
+            </div>
 
             <br /><br />
             {/* Caso 3 passando direto no botão */}

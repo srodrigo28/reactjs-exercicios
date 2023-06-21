@@ -1,7 +1,7 @@
-import { ContadorValidado } from './Views/ContadorValidado'
+import { InputText } from './Views/InputText'
 
 export function App() {
   return (
-    <ContadorValidado />
+    <InputText />
   )
 }

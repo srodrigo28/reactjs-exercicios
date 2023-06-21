@@ -1,3 +1,6 @@
+import { ContadorDisplay } from './ContadorDisplay'
+import { useState } from 'react'
+
 export function NumeroDisplay(props) {
         const [numero, setNumero] = useState(0)
         const dec = () => setNumero(numero - 1)
@@ -10,7 +13,7 @@ export function NumeroDisplay(props) {
             }}>
                 <h1>Contador</h1>
                 
-                <ContadorDisplay numero={numero} />
+                <ContadorDisplay numero={props.numero} />
     
             </div>
         )
