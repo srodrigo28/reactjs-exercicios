@@ -1,7 +1,7 @@
-import { AppMega4 } from './Views/AppMega4'
+import { AppMega6 } from './Views/AppMega6'
 
 export function App() {
   return (
-    <AppMega4 />
+    <AppMega6 />
   )
 }
