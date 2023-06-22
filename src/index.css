@@ -9,6 +9,7 @@ h1{
   height: 100px;
 
   padding-top: 30px;
+  margin-bottom: 50px;
   color: #fff;
   text-align: center;
   background-color: black;
@@ -43,6 +44,8 @@ button{
   font-size: 30px;
   cursor: pointer;
   padding: 15px;
-  width: 100%;
-  margin-top: 10px
+}
+input{
+  margin-top: 50px;
+  text-align: center;
 }
